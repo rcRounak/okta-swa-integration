@@ -1,15 +1,15 @@
 
-# Integrating HackerRank using Secure Web Authentication
+# Integrating External Web Application Using Secure Web Authentication (SWA)
 
-Here we will learn how to integrate hackerRank website with Okta using Secure Web Authentication(SWA) protocol. We will check this step by step.
+Here understand what is **Secure Web Authentication (SWA)** and we will also learn how to integrate an external web application like HackerRank with **Okta** using **Secure Web Authentication(SWA)** protocol.
 
 ## Prerequisite learning
 
 OKTA IDaaS.
 
 ## What is Secure Web Authentication (SWA) ?
-Secure Web Authentication is a technology which provides feature of Single Sign on (SSO) to the web applications which does not support protocols like Security Assertion Markup Language(SAML), or OpenID Connect(OIDC). Here we have flexibility that both user or administrator can set the credentials for the application. The credentials are stored in a safe, secured store which is AES-256 encrypted. When the credentials are set, the end user only needs to authenticate with Okta and they can Single Sign On directly into the application.  
-If the administrators do not set the credential, Okta prompts the user to set the credentials for the first time. Now Okta will also prompt the user to install the Okta Browser Plugin into their web browser which will get the credentials and inject them directly into the external web application's sign in page and this way the user can sign in to the external web application.
+Secure Web Authentication is a technology which provides feature of **Single Sign on (SSO)** to the web applications which does not support protocols like **Security Assertion Markup Language(SAML)**, or **OpenID Connect(OIDC)**. Here we have flexibility that both user or administrator can set the credentials for the application. The credentials are stored in a safe, secured store which is **AES-256 encrypted**. When the credentials are set, the end user only needs to authenticate with **Okta** and they can Single Sign On directly into the application.  
+If the administrators do not set the credential, **Okta** prompts the user to set the credentials for the first time. Now Okta will also prompt the user to install the **Okta Browser Plugin** into their web browser which will get the credentials and inject them directly into the external web application's sign in page and this way the user can sign in to the external web application.
 
 ## Integrating HackerRank with Okta
 - If we already have access to **Okta** portal we can continue with the next steps
@@ -67,7 +67,7 @@ If the administrators do not set the credential, Okta prompts the user to set th
 ![](https://github.com/rcRounak/okta-swa-integration/blob/aae36863862fd83fbd04fa67a60fffc328621df1/13.png)
 - And scroll down to the bottom where we will get the link under the **Embed Link** section. We can use this link.
 ![](https://github.com/rcRounak/okta-swa-integration/blob/aae36863862fd83fbd04fa67a60fffc328621df1/14.png)
-- If we use this link we will first need to **Okta signin Page** and only after successfully logging in our connection will get redirected to the **HackerRank website** and we will be able to access the website without signing in further as the credentials will get injected by the **Okta Browser Plugin**
+- If we use this link, we will first need to get authenticated in the **Okta Signin Page** and only after successful authentication our connection will get redirected to the **HackerRank website** and we will be able to access the website without signing in further in the external web application (HackerRank here) as the credentials will get injected by the **Okta Browser Plugin**
 
 ##  Verifying the connection
 
