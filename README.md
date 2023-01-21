@@ -45,7 +45,8 @@ If the administrators do not set the credential, **Okta** prompts the user to se
 - Below this section we have second section where we need to specify **Who sets the credentials?**. Here we will select **User sets username and password** as we can see from the picture below
 ![](https://github.com/rcRounak/okta-swa-integration/blob/aae36863862fd83fbd04fa67a60fffc328621df1/6.png)
 - Next we will select the **Application username** as email because in the **HackerRank** login page we need to provide the email instead of the  username.
-![](https://github.com/rcRounak/okta-swa-integration/blob/aae36863862fd83fbd04fa67a60fffc328621df1/7.png)
+![](https://github.com/rcRounak/okta-swa-integration/blob/479871530ea2cec979cfeb0bd4637599356ce5a6/7.png)
+
 - We will click on finish and proceed further.
 
 
