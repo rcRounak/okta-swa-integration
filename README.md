@@ -1,5 +1,5 @@
 
-# Integrating External Web Application Using Secure Web Authentication (SWA)
+# Integrating External Web Applications Using Secure Web Authentication (SWA)
 
 Here understand what is **Secure Web Authentication (SWA)** and we will also learn how to integrate an external web application like HackerRank with **Okta** using **Secure Web Authentication(SWA)** protocol.
 
@@ -8,7 +8,7 @@ Here understand what is **Secure Web Authentication (SWA)** and we will also lea
 OKTA IDaaS.
 
 ## What is Secure Web Authentication (SWA) ?
-Secure Web Authentication is a technology which provides feature of **Single Sign on (SSO)** to the web applications which does not support protocols like **Security Assertion Markup Language(SAML)**, or **OpenID Connect(OIDC)**. Here we have flexibility that both user or administrator can set the credentials for the application. The credentials are stored in a safe, secured store which is **AES-256 encrypted**. When the credentials are set, the end user only needs to authenticate with **Okta** and they can Single Sign On directly into the application.  
+Secure Web Authentication is a technology that provides feature of **Single Sign on (SSO)** to the web applications which does not support protocols like **Security Assertion Markup Language(SAML)**, or **OpenID Connect(OIDC)**. Here we have flexibility that both user or administrator can set the credentials for the application. The credentials are stored in a safe, secured store which is **AES-256 encrypted**. When the credentials are set, the end user only needs to authenticate with **Okta** and they can Single Sign On directly into the application.  
 If the administrators do not set the credential, **Okta** prompts the user to set the credentials for the first time. Now Okta will also prompt the user to install the **Okta Browser Plugin** into their web browser which will get the credentials and inject them directly into the external web application's sign in page and this way the user can sign in to the external web application.
 
 ## Integrating HackerRank with Okta
